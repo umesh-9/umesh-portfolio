@@ -74,6 +74,7 @@ const Contact = () => {
               type="text"
               name="name"
               id="name"
+              required
               value={form.name}
               onChange={handleChange}
               placeholder="what is your name?"
@@ -86,6 +87,7 @@ const Contact = () => {
               type="email"
               id="email"
               name="email"
+              required
               value={form.email}
               onChange={handleChange}
               placeholder="what is your email?"
